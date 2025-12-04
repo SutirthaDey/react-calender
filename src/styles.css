@@ -1,0 +1,27 @@
+.selected-date {
+  background-color: #ffd27f !important;
+}
+
+.has-data {
+  background-color: #8cd3ff !important;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-box {
+  width: 400px;
+  background: white;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
